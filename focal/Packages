@@ -1,0 +1,65 @@
+Package: libgbinder
+Version: 1.1.25
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 171
+Depends: libglibutil (>= 1.0.52), libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3)
+Filename: ./libgbinder_1.1.25_amd64.deb
+Size: 54084
+MD5sum: 2d2657351800603e5791c33e35a0e361
+SHA1: 6fd570af3c17f2e035c438d61fc53cb0329090aa
+SHA256: 77b8ebe71948ea27fd101a8ddbd59f89628b056fdff7c1314c027fc0b93e0513
+Section: libs
+Priority: optional
+Description: Binder client library
+
+Package: libglibutil
+Version: 1.0.66
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3)
+Filename: ./libglibutil_1.0.66_amd64.deb
+Size: 25308
+MD5sum: a63602285c565df066b807075904819b
+SHA1: 61ed419eaea17d7e7257c32f8c1768448853f162
+SHA256: c4aa32b2eecf6cbdbdb0eadc7095a8b0145b1433545accad72668e70d986a1cf
+Section: libs
+Priority: optional
+Description: Library of glib utilities
+
+Package: python3-gbinder
+Source: gbinder-python
+Version: 1.1.1
+Architecture: amd64
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 265
+Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.9), python3 (>= 3.8~)
+Filename: ./python3-gbinder_1.1.1_amd64.deb
+Size: 70164
+MD5sum: e4551dd9cf0d03e4b12fbff297406a64
+SHA1: 824825446e601e47c88ace66ca3013f9c13c3b74
+SHA256: 79c23370b589e6ad7ac5dc00a5aaa1625c244fd351d2ad3446c4585dd6ed6160
+Section: python
+Priority: optional
+Description: Cython extension module for C++ gbinder functions
+ This package contains a cython extension module for gbinder,
+ allowing to call gbinder from Python scripts.
+
+Package: waydroid
+Version: 1.4.1
+Architecture: all
+Maintainer: Erfan Abdi <erfangplus@gmail.com>
+Installed-Size: 437
+Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1
+Filename: ./waydroid_1.4.1_all.deb
+Size: 221244
+MD5sum: d2d16311ae270750962e56ff9d542fb7
+SHA1: bf82f24f4d27b9969cbc8df74b0dc42e894b44d8
+SHA256: 7cc7c270d9c16a5a90897e8f751548eb8e3d666e0d127b5b08cc58573fd2219e
+Section: misc
+Priority: optional
+Description: Android™ application support
+ waydroid allows running a separate Android™ environment
+ confined to a LXC container.
+
