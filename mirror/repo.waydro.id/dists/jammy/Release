@@ -1,0 +1,14 @@
+Origin: mrcyjanek
+Label: mrcyjanek
+Codename: jammy
+Architectures: i386 amd64 arm64 armhf all
+Components: main 
+Description: Czarek Nakamoto's repo 
+SignWith: 959FE34E90E51522
+Date: Sat, 10 Jun 2023 16:16:18 +0000
+MD5Sum:
+ 9ada4b26d1c7ce0edfdbc24485422539             3681 main/binary-all/Packages.gz
+ 72e4c0f79e85b632b92533b27b55c964            15011 main/binary-all/Packages
+SHA256:
+ 87dc8a506e9de16332185c82dc9a9825501d7d1cd96b38d5b647378b9a6daf3f             3681 main/binary-all/Packages.gz
+ 014dc85845a6f4e9373bc74904189368f6b175d77388c97d53a706393fead358            15011 main/binary-all/Packages
