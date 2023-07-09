@@ -1,19 +1,11 @@
 #!/bin/bash
-sudo apt install wget dpkg-dev -y
-cat > /etc/apt/mirror.list <<EOF
-############# config ##################
-set base_path    /waydroid-deb
-set nthreads     20
-set _tilde 0
-############# end config ##############
-deb http://repo.waydro.id/ jammy main
-deb http://repo.waydro.id/ focal main
-deb http://repo.waydro.id/ bookworm main
-deb http://repo.waydro.id/ bullseye main
-deb-src http://repo.waydro.id/ jammy main
-deb-src http://repo.waydro.id/ focal main
-deb-src http://repo.waydro.id/ bookworm main
-deb-src http://repo.waydro.id/ bullseye main
-#deb http://apt.gfdgdxi.top ./
-#clean https://repo.waydro.id/
-EOF
+rm Packages || echo "Failed to remove packages file"
+rm Packages.gz || echo "Failed to remove packages.gz file"
+rm Release || echo "Failed to remove release file"
+rm Release.gpg || echo "Failed to remove release.gpg file"
+rm InRelease || echo "Failed to remove inrelease file"
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
+apt-ftparchive release . > Release
+gpg --default-key "3025613752@qq.com" --batch --pinentry-mode="loopback" --passphrase="$KEYPASSWORD" -abs -o - Release > Release.gpg || error "failed to sign Release.gpg with gpg "
+gpg --default-key "3025613752@qq.com" --batch --pinentry-mode="loopback" --passphrase="$KEYPASSWORD" --clearsign -o - Release > InRelease || error "failed to sign InRelease with gpg"
