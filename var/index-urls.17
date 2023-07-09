@@ -1,3 +1,3 @@
-http://repo.waydro.id/dists/jammy/Release
 http://repo.waydro.id/dists/jammy/Release.gpg
 http://repo.waydro.id/dists/jammy/main/Contents-amd64.bz2
+http://repo.waydro.id/dists/jammy/main/Contents-amd64.gz

@@ -1,16 +1,19 @@
---2023-07-09 02:24:37--  http://apt.gfdgdxi.top/Packages.bz2
-Resolving apt.gfdgdxi.top (apt.gfdgdxi.top)... 185.199.108.153, 185.199.109.153, 185.199.110.153, ...
-Connecting to apt.gfdgdxi.top (apt.gfdgdxi.top)|185.199.108.153|:80... connected.
+--2023-07-09 02:26:43--  http://repo.waydro.id/dists/bookworm/Contents-amd64.bz2
+Resolving repo.waydro.id (repo.waydro.id)... 205.185.118.53
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.waydro.id/dists/bookworm/Contents-amd64.bz2 [following]
+--2023-07-09 02:26:43--  https://repo.waydro.id/dists/bookworm/Contents-amd64.bz2
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2023-07-09 02:24:37 ERROR 404: Not Found.
+2023-07-09 02:26:44 ERROR 404: Not Found.
 
---2023-07-09 02:24:37--  http://apt.gfdgdxi.top/Packages.gz
-Connecting to apt.gfdgdxi.top (apt.gfdgdxi.top)|185.199.108.153|:80... connected.
+--2023-07-09 02:26:44--  http://repo.waydro.id/dists/bookworm/Contents-amd64.gz
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.waydro.id/dists/bookworm/Contents-amd64.gz [following]
+--2023-07-09 02:26:44--  https://repo.waydro.id/dists/bookworm/Contents-amd64.gz
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2023-07-09 02:24:37 ERROR 404: Not Found.
-
---2023-07-09 02:24:37--  http://apt.gfdgdxi.top/Packages.xz
-Connecting to apt.gfdgdxi.top (apt.gfdgdxi.top)|185.199.108.153|:80... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2023-07-09 02:24:37 ERROR 404: Not Found.
+2023-07-09 02:26:44 ERROR 404: Not Found.
 

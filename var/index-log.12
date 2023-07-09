@@ -1,30 +1,29 @@
---2023-07-09 02:24:37--  http://repo.waydro.id/dists/focal/InRelease
+--2023-07-09 02:26:43--  http://repo.waydro.id/dists/focal/Release
 Resolving repo.waydro.id (repo.waydro.id)... 205.185.118.53
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
-Location: https://repo.waydro.id/dists/focal/InRelease [following]
---2023-07-09 02:24:37--  https://repo.waydro.id/dists/focal/InRelease
-Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Server ignored If-Modified-Since header for file ‘repo.waydro.id/dists/focal/InRelease’.
-You might want to add --no-if-modified-since option.
-
---2023-07-09 02:24:38--  http://repo.waydro.id/dists/focal/Release
-Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
-HTTP request sent, awaiting response... 301 Moved Permanently
 Location: https://repo.waydro.id/dists/focal/Release [following]
---2023-07-09 02:24:38--  https://repo.waydro.id/dists/focal/Release
+--2023-07-09 02:26:43--  https://repo.waydro.id/dists/focal/Release
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Server ignored If-Modified-Since header for file ‘repo.waydro.id/dists/focal/Release’.
 You might want to add --no-if-modified-since option.
 
---2023-07-09 02:24:39--  http://repo.waydro.id/dists/focal/Release.gpg
+--2023-07-09 02:26:44--  http://repo.waydro.id/dists/focal/Release.gpg
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
 Location: https://repo.waydro.id/dists/focal/Release.gpg [following]
---2023-07-09 02:24:39--  https://repo.waydro.id/dists/focal/Release.gpg
+--2023-07-09 02:26:44--  https://repo.waydro.id/dists/focal/Release.gpg
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2023-07-09 02:24:39 ERROR 404: Not Found.
+2023-07-09 02:26:44 ERROR 404: Not Found.
+
+--2023-07-09 02:26:44--  http://repo.waydro.id/dists/focal/main/Contents-amd64.bz2
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.waydro.id/dists/focal/main/Contents-amd64.bz2 [following]
+--2023-07-09 02:26:44--  https://repo.waydro.id/dists/focal/main/Contents-amd64.bz2
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2023-07-09 02:26:45 ERROR 404: Not Found.
 
