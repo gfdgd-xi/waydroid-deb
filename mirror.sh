@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install wget -y
 cat > /etc/apt/mirror.list <<EOF
 ############# config ##################
 set base_path    /waydroid-deb
@@ -9,6 +10,6 @@ deb http://repo.waydro.id/ jammy main
 deb http://repo.waydro.id/ focal main
 deb http://repo.waydro.id/ bookworm main
 deb http://repo.waydro.id/ bullseye main
-deb http://apt.gfdgdxi.top ./
+#deb http://apt.gfdgdxi.top ./
 #clean https://repo.waydro.id/
 EOF
