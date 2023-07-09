@@ -1,0 +1,14 @@
+Origin: mrcyjanek
+Label: mrcyjanek
+Codename: bullseye
+Architectures: i386 amd64 arm64 armhf all
+Components: main 
+Description: Czarek Nakamoto's repo 
+SignWith: 959FE34E90E51522
+Date: Sat, 10 Jun 2023 16:16:13 +0000
+MD5Sum:
+ 55def35cf28ae11a2ac6fb49bcf34668            11467 main/binary-all/Packages.gz
+ ba1be641a68ef17fb31ef1b139a0001c            50851 main/binary-all/Packages
+SHA256:
+ 8e8daab8010cbe326d302a51668dc9a269fed0dae33a8a1debd300858fc9f6d4            11467 main/binary-all/Packages.gz
+ f19b74c265916ac3d6b9dcac8799849cc1cf6ae08dadb620390d774e31af831c            50851 main/binary-all/Packages

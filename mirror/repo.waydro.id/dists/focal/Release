@@ -1,0 +1,14 @@
+Origin: mrcyjanek
+Label: mrcyjanek
+Codename: focal
+Architectures: i386 amd64 arm64 armhf all
+Components: main 
+Description: Czarek Nakamoto's repo 
+SignWith: 959FE34E90E51522
+Date: Sat, 10 Jun 2023 16:16:11 +0000
+MD5Sum:
+ e390914664b2b143d17c08e7a40732a5             7251 main/binary-all/Packages.gz
+ 657c31fb99ea8538b3b69f718d83bf10            30577 main/binary-all/Packages
+SHA256:
+ 9712b37bca2a3dfad097bd6e896251d9552a07f6ddc15569609f3b365ebf285c             7251 main/binary-all/Packages.gz
+ 85245bb76d39b954b8ae6dc22b3590952d1dad75d4d77f190cdc1229e80ec02a            30577 main/binary-all/Packages
