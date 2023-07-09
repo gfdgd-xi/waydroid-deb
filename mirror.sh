@@ -10,6 +10,10 @@ deb http://repo.waydro.id/ jammy main
 deb http://repo.waydro.id/ focal main
 deb http://repo.waydro.id/ bookworm main
 deb http://repo.waydro.id/ bullseye main
+deb-src http://repo.waydro.id/ jammy main
+deb-src http://repo.waydro.id/ focal main
+deb-src http://repo.waydro.id/ bookworm main
+deb-src http://repo.waydro.id/ bullseye main
 #deb http://apt.gfdgdxi.top ./
 #clean https://repo.waydro.id/
 EOF
