@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install wget -y
+sudo apt install wget dpkg-dev -y
 cat > /etc/apt/mirror.list <<EOF
 ############# config ##################
 set base_path    /waydroid-deb
