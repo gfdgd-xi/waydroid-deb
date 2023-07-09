@@ -1,10 +1,36 @@
---2023-07-09 02:19:37--  http://repo.waydro.id/dists/jammy/main/binary-amd64/Release
+--2023-07-09 02:22:52--  http://repo.waydro.id/dists/focal/Release
 Resolving repo.waydro.id (repo.waydro.id)... 205.185.118.53
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
-Location: https://repo.waydro.id/dists/jammy/main/binary-amd64/Release [following]
---2023-07-09 02:19:38--  https://repo.waydro.id/dists/jammy/main/binary-amd64/Release
+Location: https://repo.waydro.id/dists/focal/Release [following]
+--2023-07-09 02:22:52--  https://repo.waydro.id/dists/focal/Release
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 602 [application/octet-stream]
+Saving to: ‘repo.waydro.id/dists/focal/Release’
+
+     0K                                                       100%  359M=0s
+
+2023-07-09 02:22:53 (359 MB/s) - ‘repo.waydro.id/dists/focal/Release’ saved [602/602]
+
+--2023-07-09 02:22:53--  http://repo.waydro.id/dists/focal/Release.gpg
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.waydro.id/dists/focal/Release.gpg [following]
+--2023-07-09 02:22:53--  https://repo.waydro.id/dists/focal/Release.gpg
 Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2023-07-09 02:19:38 ERROR 404: Not Found.
+2023-07-09 02:22:53 ERROR 404: Not Found.
 
+--2023-07-09 02:22:53--  http://repo.waydro.id/dists/focal/main/Contents-amd64.bz2
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.waydro.id/dists/focal/main/Contents-amd64.bz2 [following]
+--2023-07-09 02:22:53--  https://repo.waydro.id/dists/focal/main/Contents-amd64.bz2
+Connecting to repo.waydro.id (repo.waydro.id)|205.185.118.53|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2023-07-09 02:22:54 ERROR 404: Not Found.
+
+FINISHED --2023-07-09 02:22:54--
+Total wall clock time: 1.5s
+Downloaded: 1 files, 602 in 0s (359 MB/s)
