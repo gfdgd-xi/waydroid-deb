@@ -5,10 +5,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 170
 Depends: libglibutil (>= 1.0.52), libc6 (>= 2.34), libglib2.0-0 (>= 2.38.0)
 Filename: ./libgbinder_1.1.25_amd64.deb
-Size: 57576
-MD5sum: e1d336ff1056fcb7a4f8eae43e174526
-SHA1: b13dee1b71b8a8be59d57b87365f330924aea18f
-SHA256: 19a3c42f29a2010581504974f65589e2d329a870c64ec80e84f81f3a57fe97de
+Size: 57584
+MD5sum: 5934ad5d4ec09b6e849065d96d5a46ff
+SHA1: d3eb23a11e0533e705710f87b33898bd7f0b15ff
+SHA256: dfc5b0aeedf628ebe84b6b6c4fb1a4255ba9858df94a109b78660f5c1b31c570
 Section: libs
 Priority: optional
 Description: Binder client library
@@ -20,10 +20,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 84
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.75.3)
 Filename: ./libglibutil_1.0.66_amd64.deb
-Size: 25944
-MD5sum: 2d99554be8e33925e84f1fd64c266528
-SHA1: 2030359da619b563c443df9e1e689def41f361c7
-SHA256: eb25653b2185b5a0d3ba91c408ca76ca363e032b36b0261e375e02ff95a0356d
+Size: 25954
+MD5sum: ed2cf9ae9c37cb1ae7cfc506ec172798
+SHA1: e0934a8c969b6b89a6082384c6250419d4c9b6dd
+SHA256: 9c5f5c2a7fe94ed06af8be538627b133db67852c01a47072f0e11efa5d378499
 Section: libs
 Priority: optional
 Description: Library of glib utilities
@@ -50,13 +50,13 @@ Package: waydroid
 Version: 1.4.1
 Architecture: all
 Maintainer: Erfan Abdi <erfangplus@gmail.com>
-Installed-Size: 437
+Installed-Size: 439
 Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1
 Filename: ./waydroid_1.4.1_all.deb
-Size: 221384
-MD5sum: 0b10cadcf9c317f0e42143ef778e7b65
-SHA1: e6076fd4d981e85c91ec5faa0d9ac767865bd00f
-SHA256: a080ac47b151447a7a699f2fb6307421d94fc9224bfc7e63b69a5b0b2dce49c1
+Size: 221820
+MD5sum: b0361f0b4d1b85902ec9f41e13a04748
+SHA1: fffa178feb49b3a691c7ac5d91f8e7f8d319ab8c
+SHA256: f3ebed1c6d1f1b5985ef841b7824f2caaac821c9df97bd6b9cd9cab73b971edd
 Section: misc
 Priority: optional
 Description: Android™ application support

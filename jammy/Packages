@@ -5,10 +5,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 171
 Depends: libglibutil (>= 1.0.52), libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3)
 Filename: ./libgbinder_1.1.25_amd64.deb
-Size: 61116
-MD5sum: d53a953d1e1d991e1ae26e30991c4430
-SHA1: 4e7f78aa37c419a2c8d209d768c0a832f8369199
-SHA256: ce324861247bdd92ef9c4519168f81ff74ae8ade2c9410e5e4d1bff1b66891fa
+Size: 61112
+MD5sum: b07f1462770c4c24481eac4d2638faa9
+SHA1: 03357205e0e3dfc17327e2d6ab28eb6e780ff091
+SHA256: 03d24b4319f56d0f65cc5e87367a6eecf318c040f47d32447b1cfa18749deeb5
 Section: libs
 Priority: optional
 Description: Binder client library
@@ -20,10 +20,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3)
 Filename: ./libglibutil_1.0.66_amd64.deb
-Size: 27966
-MD5sum: b6ff7c2e1e1a22987b7d1d92d0e848c0
-SHA1: d609832cb2cec82e3c0f147a308086961954a54b
-SHA256: 0fa56d414e2faca26f3a50b3dbef13e443dd9280001c4099db0dd5fc89704f21
+Size: 27968
+MD5sum: 828df6a5fc1d607b9431cc6ce3c91cc4
+SHA1: cddd714a9e6a8dfa30b628f88d5b0b5984fe45bf
+SHA256: 5c35b12c29cf0f8f3472a891fd7c0872d90a1f5354bbf0b4b1deb396a7ad55ba
 Section: libs
 Priority: optional
 Description: Library of glib utilities
@@ -36,10 +36,10 @@ Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Installed-Size: 221
 Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.11), python3 (>= 3.10~)
 Filename: ./python3-gbinder_1.1.1_amd64.deb
-Size: 61652
-MD5sum: 92ee57ee2d021baffc6bad276dc9e203
-SHA1: 597f5e3a7f54f0d1128381bedb7973cf33743f38
-SHA256: 75280082efd7ad382b6b98b8df11f17510fb9665c8e140eb9cf221e6688f59df
+Size: 61654
+MD5sum: 31b290a397e442f7f1e06cd0f4e9e8f4
+SHA1: e9c8669e25942fb7b0704f34cccece78d081fa52
+SHA256: ee3a5b6c82edc78b2602bdcccf246e395258ebd861a42f76a5cd3cc6e7685eb7
 Section: python
 Priority: optional
 Description: Cython extension module for C++ gbinder functions
@@ -50,13 +50,13 @@ Package: waydroid
 Version: 1.4.1
 Architecture: all
 Maintainer: Erfan Abdi <erfangplus@gmail.com>
-Installed-Size: 437
+Installed-Size: 439
 Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1
 Filename: ./waydroid_1.4.1_all.deb
-Size: 222082
-MD5sum: 5837da86695f65f97529778fdd22b53b
-SHA1: 0a944bc191bb3796b1ad57f8db6160fc28f2e817
-SHA256: 0ea024f9da396ae4dcb3ec81b66424fb31759ea453dd2f688ca7cb077e8d63b3
+Size: 222536
+MD5sum: c8477f5829eeb724a05ba369ed3d71a0
+SHA1: d0af4b6a71a5730b50328102462a521a7f08b54f
+SHA256: ffeccc4a9193e00524c561dd85e26c392822bf5b24cb4db1925c8ff571a3d961
 Section: misc
 Priority: optional
 Description: Android™ application support

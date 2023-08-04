@@ -50,13 +50,13 @@ Package: waydroid
 Version: 1.4.1
 Architecture: all
 Maintainer: Erfan Abdi <erfangplus@gmail.com>
-Installed-Size: 437
+Installed-Size: 439
 Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1
 Filename: ./waydroid_1.4.1_all.deb
-Size: 221244
-MD5sum: d2d16311ae270750962e56ff9d542fb7
-SHA1: bf82f24f4d27b9969cbc8df74b0dc42e894b44d8
-SHA256: 7cc7c270d9c16a5a90897e8f751548eb8e3d666e0d127b5b08cc58573fd2219e
+Size: 221672
+MD5sum: bf366d33ecaedd847ca989828959daa2
+SHA1: 77451991a2c6651fc1bb4598537e81d5f503eedb
+SHA256: 3619122215f0baf9c0149a1b41895adb0de33fc7b9888a69ea35edbbf36f0c5e
 Section: misc
 Priority: optional
 Description: Android™ application support
