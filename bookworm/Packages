@@ -13,6 +13,22 @@ Section: libs
 Priority: optional
 Description: Binder client library
 
+Package: libgbinder-dev
+Source: libgbinder
+Version: 1.1.25
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 93
+Depends: libgbinder (= 1.1.25), libglibutil-dev (>= 1.0.52)
+Filename: ./libgbinder-dev_1.1.25_amd64.deb
+Size: 12760
+MD5sum: bf771096b153b06749da498b7d18b184
+SHA1: 3e6af5c83e7260add1126cdc8d2a7ec1dc7fe47e
+SHA256: b40a44fcbf5434d6f6d0a40473a68f7c2f967abd86374ba06d34564408b20901
+Section: libdevel
+Priority: optional
+Description: Development files for libgbinder
+
 Package: libglibutil
 Version: 1.0.66
 Architecture: amd64
@@ -27,6 +43,22 @@ SHA256: f6929d269224f7ff707b5478a7474f0241c87363f8c2693607c1eac26b453dfb
 Section: libs
 Priority: optional
 Description: Library of glib utilities
+
+Package: libglibutil-dev
+Source: libglibutil
+Version: 1.0.66
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 76
+Depends: libglibutil (= 1.0.66)
+Filename: ./libglibutil-dev_1.0.66_amd64.deb
+Size: 10668
+MD5sum: 215f0e0dcb23ab20b9338c034cd5bdb3
+SHA1: 7a4df8b76c114545d7c6b74421d33820f601b134
+SHA256: c8122a4fb78aeceec0b4c604093b30aa7d09646e2d4b53a04c2290ac6d3087e6
+Section: libdevel
+Priority: optional
+Description: Development files for libglibutil
 
 Package: python3-gbinder
 Source: gbinder-python
