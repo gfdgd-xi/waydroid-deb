@@ -5,10 +5,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 171
 Depends: libglibutil (>= 1.0.52), libc6 (>= 2.17), libglib2.0-0 (>= 2.37.3)
 Filename: ./libgbinder_1.1.25_amd64.deb
-Size: 54084
-MD5sum: 2d2657351800603e5791c33e35a0e361
-SHA1: 6fd570af3c17f2e035c438d61fc53cb0329090aa
-SHA256: 77b8ebe71948ea27fd101a8ddbd59f89628b056fdff7c1314c027fc0b93e0513
+Size: 54280
+MD5sum: 1f5ac5260043bbf0b3cf4e9f48760de8
+SHA1: 188ba89b173ce63f34bd6edce572b176fd0074e8
+SHA256: 03dfcddff6f612aa54630e5a1d53cc8aa9d66c041bcd91f9e7e0f3a2f468d098
 Section: libs
 Priority: optional
 Description: Binder client library
@@ -36,10 +36,10 @@ Maintainer: Slava Monich <slava.monich@jolla.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3)
 Filename: ./libglibutil_1.0.66_amd64.deb
-Size: 25308
-MD5sum: a63602285c565df066b807075904819b
-SHA1: 61ed419eaea17d7e7257c32f8c1768448853f162
-SHA256: c4aa32b2eecf6cbdbdb0eadc7095a8b0145b1433545accad72668e70d986a1cf
+Size: 25332
+MD5sum: bbef1bcacb036cee5000ab5fb7148ccb
+SHA1: 3604da93411e59853b37cfe45647f2b871b11f98
+SHA256: 385794436c95aeb3a61d0c03d891bce9d1114e087b2f2284e4e571813069b15c
 Section: libs
 Priority: optional
 Description: Library of glib utilities
@@ -72,6 +72,24 @@ Size: 70164
 MD5sum: e4551dd9cf0d03e4b12fbff297406a64
 SHA1: 824825446e601e47c88ace66ca3013f9c13c3b74
 SHA256: 79c23370b589e6ad7ac5dc00a5aaa1625c244fd351d2ad3446c4585dd6ed6160
+Section: python
+Priority: optional
+Description: Cython extension module for C++ gbinder functions
+ This package contains a cython extension module for gbinder,
+ allowing to call gbinder from Python scripts.
+
+Package: python3-gbinder
+Source: gbinder-python
+Version: 1.1.2
+Architecture: amd64
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 403
+Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.9), python3 (>= 3.8~)
+Filename: ./python3-gbinder_1.1.2_amd64.deb
+Size: 96072
+MD5sum: fa288e95e174c1a3bc964efcd3e165a5
+SHA1: b4962f007cb415737a4e2cc56e88f0304f6afb93
+SHA256: befb031d0a4bd64ab79b8a65ea6195209b29c773e4003899de31a5a9600ac1b6
 Section: python
 Priority: optional
 Description: Cython extension module for C++ gbinder functions

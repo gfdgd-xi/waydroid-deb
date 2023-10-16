@@ -78,17 +78,35 @@ Description: Cython extension module for C++ gbinder functions
  This package contains a cython extension module for gbinder,
  allowing to call gbinder from Python scripts.
 
+Package: python3-gbinder
+Source: gbinder-python
+Version: 1.1.2
+Architecture: amd64
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 367
+Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.10), python3 (>= 3.9~)
+Filename: ./python3-gbinder_1.1.2_amd64.deb
+Size: 86268
+MD5sum: 3d5b9641e31a313c5dc43c5dd2488e6f
+SHA1: 2c50210b350db29faa0298a0dc3b6ed653b11a58
+SHA256: 2201cbbf43b3e80732a5150b227cd30a4819ba4801aa0228ecf59183040ed755
+Section: python
+Priority: optional
+Description: Cython extension module for C++ gbinder functions
+ This package contains a cython extension module for gbinder,
+ allowing to call gbinder from Python scripts.
+
 Package: waydroid
 Version: 1.4.1
 Architecture: all
 Maintainer: Erfan Abdi <erfangplus@gmail.com>
-Installed-Size: 439
-Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1
+Installed-Size: 441
+Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1, iptables
 Filename: ./waydroid_1.4.1_all.deb
-Size: 221660
-MD5sum: 3d2dd8255f380770bbe75f89f4322a73
-SHA1: 6509754fc411252f0a6b73fecdaef99babb50147
-SHA256: 1ca3c0ebb25ddfebfdbcd83c8496509171927060a1040aefa9a94e96dd7544c2
+Size: 221424
+MD5sum: fdb69427786c26118cf50e74428db920
+SHA1: 8d97833d61e67ef2d45815721df1b0ccbd80a11c
+SHA256: 55f1ab71e98e3ca60b9923e04f104104fb300d470b5e6e3e6a40625fb4b60be1
 Section: misc
 Priority: optional
 Description: Android™ application support

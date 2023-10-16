@@ -78,6 +78,24 @@ Description: Cython extension module for C++ gbinder functions
  This package contains a cython extension module for gbinder,
  allowing to call gbinder from Python scripts.
 
+Package: python3-gbinder
+Source: gbinder-python
+Version: 1.1.2
+Architecture: amd64
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 375
+Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.11), python3 (>= 3.10~)
+Filename: ./python3-gbinder_1.1.2_amd64.deb
+Size: 98250
+MD5sum: f380b1c7679570a7ecaeb74afad26466
+SHA1: 5aa605ed20e4e12e73de8b4c46e6db11d526078b
+SHA256: ade9d5d8894ccddc8360fe4c983b05c85a7f1be913f6c690109886722ff552ce
+Section: python
+Priority: optional
+Description: Cython extension module for C++ gbinder functions
+ This package contains a cython extension module for gbinder,
+ allowing to call gbinder from Python scripts.
+
 Package: waydroid
 Version: 1.4.1
 Architecture: all
