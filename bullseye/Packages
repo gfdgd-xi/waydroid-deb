@@ -86,10 +86,10 @@ Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Installed-Size: 367
 Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.10), python3 (>= 3.9~)
 Filename: ./python3-gbinder_1.1.2_amd64.deb
-Size: 86268
-MD5sum: 3d5b9641e31a313c5dc43c5dd2488e6f
-SHA1: 2c50210b350db29faa0298a0dc3b6ed653b11a58
-SHA256: 2201cbbf43b3e80732a5150b227cd30a4819ba4801aa0228ecf59183040ed755
+Size: 86468
+MD5sum: 1ea8efe44065fc6d01fcc57d997b0002
+SHA1: 0f211996be47114990905e89f640138fa8a56509
+SHA256: 2f439e914761b6477920580c053ba286433f78e5f8413d5942334c0d14838734
 Section: python
 Priority: optional
 Description: Cython extension module for C++ gbinder functions
