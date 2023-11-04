@@ -86,10 +86,10 @@ Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Installed-Size: 362
 Depends: libc6 (>= 2.4), libgbinder (>= 1.1.20), python3 (<< 3.12), python3 (>= 3.11~)
 Filename: ./python3-gbinder_1.1.2_amd64.deb
-Size: 87312
-MD5sum: 66e122a8611338bde7e3ab2db9c3c0f5
-SHA1: f04911cfe0cd262de76e5010e47e1d9dff766aeb
-SHA256: 54efb5b7c5a3063dce3844616e560100ab2b9837987ebdd51931cf76df3f3a6e
+Size: 87492
+MD5sum: cfef6f29a9479fbde4a05ee3ff365d4a
+SHA1: 32b79cee45e17fd130e3a423d7f8457c1acc96d8
+SHA256: 2b420850747f09323dd1bb31779709b56a2ffca35bb7cde18c58d0b89cfa3921
 Section: python
 Priority: optional
 Description: Cython extension module for C++ gbinder functions
@@ -107,6 +107,23 @@ Size: 221416
 MD5sum: be44e589cc9ddf659fc029e18c677675
 SHA1: e5798af4e03d2694e0649508578d54c91158b695
 SHA256: a05a8ab38b5246f618ee4223e756aa5d835c642c6cc706c1818ec129ab3164b3
+Section: misc
+Priority: optional
+Description: Android™ application support
+ waydroid allows running a separate Android™ environment
+ confined to a LXC container.
+
+Package: waydroid
+Version: 1.4.2
+Architecture: all
+Maintainer: Erfan Abdi <erfangplus@gmail.com>
+Installed-Size: 447
+Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1, iptables
+Filename: ./waydroid_1.4.2_all.deb
+Size: 222132
+MD5sum: d4450974fb96846cc31c2a5575038f62
+SHA1: e31d10adb0fe146b5f7311c8a3cc5bdb7f1fd089
+SHA256: 4125b5d8a86b89f1a897dfba435f820055fe4c78bb2dfb54d09470507a9b67e5
 Section: misc
 Priority: optional
 Description: Android™ application support
