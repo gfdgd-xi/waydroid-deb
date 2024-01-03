@@ -120,10 +120,10 @@ Maintainer: Erfan Abdi <erfangplus@gmail.com>
 Installed-Size: 447
 Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, policykit-1, iptables
 Filename: ./waydroid_1.4.2_all.deb
-Size: 222970
-MD5sum: 428f832658fa11eff846538e8d9a0411
-SHA1: a5aaa50390b85040260e41a2b394d5830ff75d63
-SHA256: 65db315a8d2ea44ed47b98a55ad7db7d9686c674a2057d80f5d38fe04648835f
+Size: 222998
+MD5sum: a0592784c64c0cb20178586254d83aa3
+SHA1: 01066f5e2b4eeb25a634df366e31eb9a0019a1f9
+SHA256: 61a344f0e532344b1fae679e088dcf852dc140e4c644d0157a1749b795201ffd
 Section: misc
 Priority: optional
 Description: Android™ application support
