@@ -1,34 +1,34 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Sun, 21 Jul 2024 01:39:29 +0000
+Date: Mon, 22 Jul 2024 01:36:45 +0000
 MD5Sum:
  8f47192f2a22f13a374a44d38b30e42e             4494 Packages
- 64db71cea6f939b1e71c915bda0e6679             1592 Packages.gz
- 5d37b5f4b230c65e0230239680ece482               38 Release
+ e6eb5bcaf35aa120ff6fff6ba99f7c50             1592 Packages.gz
+ 05c80c79f5193428dc0571748a9e26a7               38 Release
 SHA1:
  ac56318c15b19820f3734a030c720231c89b2608             4494 Packages
- e431508bbf9bc9eb05cca5989cdcc636c15d72b8             1592 Packages.gz
- d4d386a9977ce12f6c9907a06f6616afbceac557               38 Release
+ 4bd9d80ce5915d80f35936b8aaa33bd610fbd87f             1592 Packages.gz
+ 1b3cf31435091349ecc975650556e82c2bb01d63               38 Release
 SHA256:
  207c7331f4b9452ecf4b72dd45775bdc347fbda9746c1a5219b4ad0153507fbb             4494 Packages
- 14a402fc6d7d77f2d9efef09d749e569c69e3b1e29659d1b68d8562cfbd4dfe6             1592 Packages.gz
- e71c65620b7ba7b56283342650e9d1bbb8e396983b0a3847109d8c0e3b4f0919               38 Release
+ 708b673a9fe00bfe315ab3ff7fbf831b1e16c2c096c1d4b0aa33e551f887e4ae             1592 Packages.gz
+ 83d057ffc2b0839792d59d54ee6c8bc581353aceb9bab01251b056f264bbc733               38 Release
 SHA512:
  a2cea895ab3efc09d7a00a6a51028f73ca1720fd3215c50ebb5b433277df921597559279c746141b19e436ef62c9abb8bab6ba46c0792f12a041ed3772eb1e9e             4494 Packages
- 8c2819c74d2375e17c9ce759d9f855cc27c5ef139f0c734b1d2c769f7e7c6077be57df5f3450018f94886cc05f01347754b9fc8bf8433ea9c2df65cfcc53da83             1592 Packages.gz
- 594e163e5601e8baff870b2270e5eae89989398ae56763f0c8b0ae4aca8c382ac157069e9c2595676a5dd08b845a087e5f674442dbe8b56eb6faf120841462d7               38 Release
+ 4a6fb11dc08b09acdd58f51742b9246e6e73efdec6c503c91a520fb5b5457d97e46f1400904853abd046eb2bc6bdce4736716ed9cc969cae1abf6b5124b7c4ff             1592 Packages.gz
+ cd0501e865267ecb0f23f5c80d8220a2d91fc058e5378caa05ef0ce3eeb54244e113d4a6541ad9c7ffd248af60dda94edd40f1cab2f2991ac9a0280bb1f4c26e               38 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQHGBAEBCgAwFiEEvMbX8HEwwPoyZpBm/W7qHyDNSycFAmacZtISHDMwMjU2MTM3
-NTJAcXEuY29tAAoJEP1u6h8gzUsnokEL/jpAiRq8intwgSQc+1SI0WN2wG/JOwUI
-yNRmglks84XHpfd5v/6yqD/Z2eny50QmSfOxYsz2kaPyjU04maimGTiVEILLmTwM
-qeX/8wSXviAwQnYDEVAv6y9PANoYBnpOy26oxgCkclZgev7wWnnuHyz8m298mZ/p
-TpIL1Uu5QCRLKDnU+P64syRytLopobzzVX4n3Os+1jeLrHP0epeEcA+SpjmqFACF
-fqJmneMahjLQYZhZcL7AKGlorL/O6QZcpk4EO59OmRlVmfp5aEwLZ7cUiZOvbFgB
-dTjJsl0UdX6Jncc3rFvZj/8Bb4smxB/f8JBm1rEek3yTfPcdzV5L0oJ4QRFvM+4E
-MeAvq5jmzGFjV4I88XN3WZ2p/3ERgTg5SvVSyUa4vzfxmXVGAU1Lm+zIW/DRouN8
-RF/dWUrZiMQVyabCkaj/k2hrU9ub9FPtg7N/Q2QynnTEWGs/VeSl4WNboFbYaNBp
-/PZ0fVklgGz49Zd8mqxosGXJ5v3XN87KRQ==
-=H/nx
+iQHGBAEBCgAwFiEEvMbX8HEwwPoyZpBm/W7qHyDNSycFAmadt68SHDMwMjU2MTM3
+NTJAcXEuY29tAAoJEP1u6h8gzUsn+xcMAKioLjshxM/xlJuwxXWKW+mDnYPk4FN7
+/b7p4g+DKUPrHc9GZ+hCAl73faFvHGydlp4GlOqo2h7VS0jxwYPNNGfpHhn7aaEL
+bVItMauNyoC8ZrNkynr4C9Su/YDF4/Yt8LbYlW6w++0Q/EeeKroai/dBbMvNdIjO
+7MfQ8qP1Tv92olkbw/4veEJyDWHkTMxI785Q0HefjVx+mw1fySAIr2GAaHdGbGtF
+XlClZuKYjaGcwGfomv26WX/R9Npy8EAVIiTxGO5zW18LCscvHuD2QTRtbHUsXFly
+r0TIJ/OZPs+KRQXxuLyc6X7bX4YzUda2opfhu7ko0epM3R/5I+shyO27uffuPAtS
+J8ni3q7L5x+Y0MUMcyd8gCssIiiNN856NyZ2GmjLzzkihoO2GP+wQvnTDZj7Fw/B
+Hca9CYfgO/UXnYQ3jj4MwnQEPlUUOc+VUx8WAkiZUroDs7OEUzsZnJeVLWLYZgEL
+bbZnh7h8txIize9yAgGpav176S6BPH3k1g==
+=B/5C
 -----END PGP SIGNATURE-----
